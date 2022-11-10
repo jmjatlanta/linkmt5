@@ -1,12 +1,13 @@
-Build a DLL for MT5
+Status: Incomplete
 
-It should handle all the events, and echo their details to listeners.
+Purpose:  Transmit all ticks and other events to listeners
 
-On initialization, it should bind to a TCP port, or in the case of a client, attempt to connect to a server.
+Usage:
+    Using the linkmq5 Expert Advisor, set it up to be the client or server. Starting the EA should get everything talking.
 
-On Tick it should forward the tick information to any listeners. The same for other events.
+Notes:
+    Created on Linux using mingw and tested on a Wine installation of MetaTrader 5
 
-
-Messages should be versioned, and/or be in JSON
-
-Perhaps the clients should state their version.
+Ideas:
+- Messages should be versioned, and/or be in JSON
+- Perhaps the clients should state their version.
