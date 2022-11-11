@@ -10,7 +10,7 @@
 #import "LinkMT5.dll"
 int LinkIsServer();
 int LinkStartServer(int port);
-int LinkStartClient(string host);
+int LinkStartClient(string host, string port);
 int LinkStopServerClient();
 int LinkSendTick(string symbol, MqlTick tick);
 #import

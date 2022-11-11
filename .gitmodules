@@ -1,0 +1,3 @@
+[submodule "thirdparty/SocketServer"]
+	path = thirdparty/SocketServer
+	url = https://github.com/jmjatlanta/SocketServer
